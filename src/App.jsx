@@ -1,10 +1,7 @@
 
 import WeatherApp from "./WeatherApp"
 
-
 function App() {
-
-
   return (
     <>
     <WeatherApp/>
@@ -13,3 +10,4 @@ function App() {
 }
 
 export default App
+
