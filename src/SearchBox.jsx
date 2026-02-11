@@ -2,7 +2,6 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import './SearchBox.css'
 
-
 import { useState } from 'react';
 
 export default function SearchBox({updateInfo}) {
@@ -34,7 +33,6 @@ export default function SearchBox({updateInfo}) {
         }
     }
 
-
     let handleChange = (evt) => {
         setCity(evt.target.value)
     }
@@ -65,3 +63,4 @@ export default function SearchBox({updateInfo}) {
     )
 
 }
+
