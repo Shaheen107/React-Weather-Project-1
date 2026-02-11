@@ -5,7 +5,6 @@ import './SearchBox.css'
 
 import { useState } from 'react';
 
-
 export default function SearchBox({updateInfo}) {
     let [city, setCity] = useState("");
     let [error, setError] = useState(false)
@@ -64,4 +63,5 @@ export default function SearchBox({updateInfo}) {
             </form>
         </div>
     )
+
 }
