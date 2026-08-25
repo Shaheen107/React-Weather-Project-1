@@ -27,4 +27,5 @@ export default function WeatherApp(){
             <InfoBox info={weatherInfo}/>
         </div>
     )
+    
 }
